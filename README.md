@@ -23,4 +23,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-![SQL Designer](./sql_designer.png)
+![sql_designer](https://github.com/Trivarna13/eXprep/assets/104765948/4bd70617-1b69-4073-8b09-25b81e0bfb2e)
+
