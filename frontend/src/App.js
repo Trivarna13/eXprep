@@ -13,6 +13,7 @@ import FacCourse1 from "./components/FacCourse1";
 import FacCourse2 from "./components/FacCourse2";
 import FacCourse3 from "./components/FacCourse3";
 import FacCourse4 from "./components/FacCourse4";
+import AboutUs from "./components/AboutUs";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Login />} />
 				<Route path="/register" element={<Register />} />
+				<Route path="/about-us" element={<AboutUs />} />
 				<Route path="/faculty-dashboard" element={<Faculty />} />
 				<Route path="/student-dashboard" element={<Student />} />
 				<Route

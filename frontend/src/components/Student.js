@@ -50,7 +50,7 @@ const Student = () => {
 			<div>
 				<Navbar />
 			</div>
-			<div className="container">
+			<div className="dashboard-container">
 				<h1 className="heading">Our Courses</h1>
 
 				<div className="search-bar">
@@ -61,6 +61,7 @@ const Student = () => {
 						value={searchQuery}
 						onChange={handleSearchChange}
 					/>
+					<i className="fas fa-search search-icon"></i>
 				</div>
 
 				<div className="box-container">

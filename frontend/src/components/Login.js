@@ -61,7 +61,9 @@ const Login = () => {
 	return (
 		<div className="Main">
 			<div className="left">
-				<h1>eXprep</h1>
+				<NavLink to="/about-us" className="abt-lnk">
+					<h1 className="AppName">eXprep</h1>
+				</NavLink>
 			</div>
 			<div className="right">
 				<h1>Login</h1>

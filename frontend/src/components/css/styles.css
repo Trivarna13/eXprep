@@ -121,15 +121,7 @@ input[type="submit"]:hover {
 .signup_link a:hover {
 	text-decoration: underline;
 }
-.container {
-	background-color: #fff;
-	width: 100%;
-	height: 80%;
-	padding: 20px;
-	text-align: center;
-	box-sizing: border-box;
-	position: relative;
-}
+
 .heading {
 	font-size: 2.5em;
 	margin-bottom: 20px;
@@ -146,7 +138,11 @@ input[type="submit"]:hover {
 	color: #dfd6c3;
 }
 
-.left h1 {
+.abt-lnk {
+	text-decoration: none;
+}
+
+.left .AppName {
 	text-align: center;
 	font-size: 4.5rem;
 	margin-bottom: 20px;
