@@ -13,6 +13,14 @@ const db = mysql.createConnection({
 	database: "exam_prep_db",
 });
 
+db.connect((err) => {
+	if (err) {
+		console.error("Error connecting to the database:", err);
+	} else {
+		console.log("Connected to the database.");
+	}
+});
+
 app.post("/signup", (req, res) => {
 	if (req.body.email.endsWith("@gitam.edu")) {
 		const sql = "INSERT INTO faculty (`email`, `password`) VALUES (?, ?)";
